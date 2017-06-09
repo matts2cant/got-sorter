@@ -1,0 +1,20 @@
+{
+    "name": "matt/got-sorter",
+    "description": "A script that helps you sort characters of game of thrones",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matthieu de Canteloube",
+            "email": "matts2cant@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.3"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
