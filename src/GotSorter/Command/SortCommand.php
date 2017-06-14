@@ -41,7 +41,7 @@ class SortCommand extends Command
 
             $chosenCharacter = $helper->ask($input, $output, $question);
 
-            return $chosenCharacter === $character1 ? 1 : -1;
+            return $chosenCharacter === $character1 ? -1 : 1;
         });
 
         print_r($lines);
